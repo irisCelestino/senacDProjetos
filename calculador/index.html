@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>calculador de Idade</title>
+</head>
+
+<body>
+  <main>
+    <form>
+      <div class="input-form">
+        <div class="input">
+          <label for="dia">Dia</label>
+          <input type="number" name="dia" id="dia" placeholder="Dias" min="0">
+          <span class="campo-obrigatorio ocultar">Este campo é obrigatório</span>
+          <span class="informacao-valida ocultar">Deve ser um dia válido</span>
+        </div>
+
+        <div class="input">
+          <label for="mes">Mes</label>
+          <input type="number" name="mes" id="mes" placeholder="Mes" min="0">
+          <span class="campo-obrigatorio ocultar">Este campo é obrigatório</span>
+          <span class="informacao-valida ocultar">Deve ser um mes válido</span>
+        </div>
+
+        <div class="input">
+          <label for="ano">Ano</label>
+          <input type="number" name="ano" id="ano" placeholder="Ano" min="0">
+          <span class="campo-obrigatorio ocultar">Este campo é obrigatório</span>
+          <span class="informacao-valida ocultar">Deve ser um ano válido</span>
+        </div>
+      </div>
+
+      <div class="registro">
+        <div class="linha"></div>
+        <button type="submit">
+          <img src="assets/img/icons8-undo-alt-32.png" alt="">
+        </button>
+      </div>
+    </form>
+
+    <div class="informacaoIdade">
+      <p><span class="ano"></span> Ano</p>
+      <p><span class="mes"></span> Mes</p>
+      <p><span class="dia"></span> Dia</p>
+    </div>
+  </main>
+  
+  <script type="module" src="assets/javaScript/main.js"></script>
+</body>
+
+</html>

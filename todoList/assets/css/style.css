@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sem serifa;
+  outline: none;
+}
+body{
+  background-image: url(/assets/img/undraw_completed_tasks_vs6q.svg);
+  background-repeat: no-repeat;
+  background-size: 40%;
+ 
+}
+.container{
+background: #d1d1d1;
+width: 31.25rem;
+border: 0.625rem;
+padding: 1.25rem;
+margin: 6.25rem auto 0;
+}
+.input-task{
+  border: none;
+  border-radius: 0.3125rem;
+  height: 2.5rem;
+  padding-left: 0.625rem;
+}
+.button-task{
+  border: none;
+  border-radius: 0.625rem;
+  height: 2.5rem;
+  background: #9a5000;
+  color: #ffffff;
+  font-size: 1.0625rem;
+  padding: 0 0.9375rem;
+  float: right;
+  cursor: pointer;
+  font-weight: 700;
+}
+.botton-task:hover{
+ opacity: 0.8;
+}
+button-task:active{
+  opacity: 0.6;
+}
+img{
+  height: 1.5625rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out ;
+}
+.list-task{
+  width: 100%;
+  list-style: none;
+  margin-top: 1.875rem;
+}
+.task{
+  background: #f2f2f2;
+  box-shadow: 0.0625rem 0.25rem 0.625rem rgb(0, 0, 0, 0.2);
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.9375rem;
+  border-radius: 0.3125rem;
+  margin-bottom: 1.25rem;
+  cursor: pointer;
+}
+.task:hover img{
+ opacity: 1;
+}
+.done{
+  background: #5855ac;
+  text-decoration: line-through;
+}
